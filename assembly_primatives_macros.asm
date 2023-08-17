@@ -1,11 +1,11 @@
-TITLE String Primitives & Macros  (Proj6_dassn.asm)
+TITLE String Primitives & Macros
 
 
 INCLUDE Irvine32.inc
 ; ---------------------------------------------------------------------------------
 ; Name: mGetString
 ;
-; Display a prompt, then get the user’s keyboard input into a memory location(inString). 
+; Display a prompt, then get the userâ€™s keyboard input into a memory location(inString). 
 ;
 ; Preconditions: Does not use eax, ecx, esi as arguments. All arguments passed by reference.
 ;
@@ -15,7 +15,7 @@ INCLUDE Irvine32.inc
 ; countIn = array length of input
 ; countOut = array length of output
 ;
-; returns: regisIn = user’s keyboard input
+; returns: regisIn = userâ€™s keyboard input
 ;		 : countOut = length of keyboard input
 ; ---------------------------------------------------------------------------------
 mGetString MACRO promptIn, regisIn, countIn, countOut
@@ -233,7 +233,7 @@ introduction ENDP
 ; ---------------------------------------------------------------------------------
 ; Name: ReadVal
 ;
-; Get user input as a string, converts the string of ascii digits to its numeric value, valides the user’s input and stores this one value in a memory variable
+; Get user input as a string, converts the string of ascii digits to its numeric value, valides the userâ€™s input and stores this one value in a memory variable
 ;
 ; Preconditions: inString([EBP+12]) should be a BYTE array and outIntegers([EBP+24]) should be SDWORD
 ;
